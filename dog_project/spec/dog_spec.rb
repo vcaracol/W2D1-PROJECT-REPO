@@ -1,4 +1,4 @@
-gitrequire "dog"
+require "dog"
 
 describe "Dog" do
   let(:dog) { Dog.new("Fido", "German Shepard", 3, "Bork!", ["Bacon", "Chicken"])}
